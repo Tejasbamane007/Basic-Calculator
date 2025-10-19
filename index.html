@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Basic Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="calculator">
+    <input type="text" id="display" class="display" disabled />
+
+    <div class="buttons">
+      <!-- Row 1 (memory) -->
+      <button class="btn memory mc" data-value="MC">MC</button>
+      <button class="btn memory mr" data-value="MR">MR</button>
+      <button class="btn memory mp" data-value="M+">M+</button>
+      <button class="btn memory mm" data-value="M-">M-</button>
+
+      <!-- Row 2 -->
+      <button class="btn clear c" data-value="C">C</button>
+      <button class="btn delete del" data-value="DEL">DEL</button>
+      <button class="btn operator div" data-value="/">÷</button>
+      <button class="btn operator mul" data-value="*">×</button>
+
+      <!-- Row 3 -->
+      <button class="btn number seven" data-value="7">7</button>
+      <button class="btn number eight" data-value="8">8</button>
+      <button class="btn number nine" data-value="9">9</button>
+      <button class="btn operator sub" data-value="-">−</button>
+
+      <!-- Row 4 -->
+      <button class="btn number four" data-value="4">4</button>
+      <button class="btn number five" data-value="5">5</button>
+      <button class="btn number six" data-value="6">6</button>
+      <button class="btn operator add" data-value="+">+</button>
+
+      <!-- Row 5 -->
+      <button class="btn number one" data-value="1">1</button>
+      <button class="btn number two" data-value="2">2</button>
+      <button class="btn number three" data-value="3">3</button>
+      <button class="btn equal eq" data-value="=">=</button>
+
+      <!-- Row 6 -->
+      <button class="btn number zero" data-value="0">0</button>
+      <button class="btn number dot" data-value=".">.</button>
+      <button class="btn operator pct" data-value="%">%</button>
+      <button class="btn operator sqrt" data-value="√">√</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
