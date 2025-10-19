@@ -26,8 +26,8 @@ It performs basic arithmetic operations and includes memory functions and square
 ---
 
 ## Tech Stack
-s
- | Technology | Purpose |
+
+| Technology | Purpose |
 |-------------|----------|
 | HTML5 | Structure and markup |
 | CSS3 | Styling, layout, and theming |
